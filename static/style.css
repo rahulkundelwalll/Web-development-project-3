@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Bree+Serif&family=Oswald:wght@500&family=Roboto:wght@300&display=swap');
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Bree+Serif&family=Exo+2:wght@300&family=Oswald:wght@500&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#navbar {
+    background-color: rgb(215, 30, 30);
+    
+    padding: 3px 6px 0px 7p
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li a {
+    text-decoration: none;
+    
+    padding: 13px 30px;
+    color: white;
+    transform: scale(10);
+    transition: all 0.3s ease-in-out 0.2s;
+    font-weight: bold;
+
+
+
+}
+#navbar li a:hover {
+    text-decoration: none;
+    padding: 13px 30px;
+    color: black;
+    transform: translateY(200px);
+  transition: all 0.3s ease-in-out 0.1s;
+  -ms-transform: scale(4.6);
+            /* IE 9 */
+            -webkit-transform: scale(1.5);
+            /* Safari 3-8 */
+            transform: scale(1.5);
+
+
+
+}
+
+#navbar li {
+    list-style: none;
+
+}
+
+#introSection {
+    background: top / cover no-repeat url("/static/dance.jpg");
+    height: 700px;
+    width: 100%;
+    background-color: aqua;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 35px;
+    flex-direction: column;
+    padding-bottom: 30px;
+
+}
+
+#introSection div.small {
+    font-size: 27px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    transition-delay: 2s;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 5.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+      text-transform: uppercase;
+}
+#missionSection{
+    height: 350px;
+    
+    display: block;
+   
+    width:100%;
+    text-align: center;
+    background-color: bisque;
+   
+}
+#missionSection h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 27px;
+}
+
+.card {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 12px;
+    width: 20%;
+    margin: 11px 61px 25px 76px;
+    padding: 16px;
+    height: 194px;
+    text-align: center;
+    background-color: aliceblue;
+   
+}
+
+.card h3{
+    
+text-align: center;
+margin: 12px;
+font-family: Arial, Helvetica, sans-serif;
+}
+#sponsorsSection {
+    height: 300px;
+    
+    background-color: white;
+    
+}
+
+#sponsorsSection h3{
+    text-align: center;
+    padding-top: 23px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+#footer {
+    height: 100px;
+    background-color: green;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 4px 30px 11px 19px;
+    font-size: 19px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 42px;
+    
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 99px;
+    padding: 9px 16px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit; 
+}
+
+#spon{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 27px 10px;
+}
+#sponsors {
+    display: flex;
+    height: 108px;
+    margin: 19px 35px;
+}
+
+#sponsors :hover {
+    transform: translateY(150px);
+    transition: all 0.3s ease-in-out 0.1s;
+    -ms-transform: scale(4.6);
+              /* IE 9 */
+              -webkit-transform: scale(1.5);
+              /* Safari 3-8 */
+              transform: scale(1.5);
+  
+  
+    
+}
+
+#footer{
+    height: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+#typewriter  {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    /* border-right: .15em solid orange; The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 5.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+      text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 40px;
+  }
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 40% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
